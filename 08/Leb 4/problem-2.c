@@ -2,14 +2,14 @@
 
 int main()
 {
-    int x, y, z, i;
+    int x, y, z, i; //declare caliable 
     x = y = 1;
     printf("Enter the number ");
-    scanf("%d", &i);
+    scanf("%d", &i); //scan for user input
     printf("%d",y);
-    for (z = 0; z <= i; z++)
+    for (z = 0; z <= i; z++) //set loop
     {
-        printf("    %d", x);
+        printf("    %d", x); //print the result
         x = x+y;
         y = x - y;
     }
