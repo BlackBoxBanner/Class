@@ -7,7 +7,7 @@ int main()
     scanf("%d",&x );
     for (num = 2 ; num <= x ; num++ )
     {
-        if (num%2 == !0 && num%3 != 0 || num == 2 || num == 3)
+        if (num%2 != 0 && num%3 != 0 && num%5 != 0 && num%7 != 0 || num == 2 || num == 3 || num == 5 || num == 7)
         {
             printf("%d  ",num);
             if (!(i%10))
