@@ -14,7 +14,7 @@ int main()
 		sum += i; //summation ( x += 1 || x = x + 1 )
 		fact *= i;
     }
-    printf("Summation fro 1 to %d  is %d\n",n,sum); //print the result
+    printf("Summation for 1 to %d  is %d\n",n,sum); //print the result
     printf("Facctorial of %d is %ld.\n",n,fact);
     return 0;
 }
