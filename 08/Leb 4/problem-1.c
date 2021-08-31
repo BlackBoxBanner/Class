@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n, i;
+  int n, i;
 	int sum = 0; 
 	long int fact = 1; //declare variable
 	
