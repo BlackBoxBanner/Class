@@ -9,7 +9,7 @@ int main()
     printf("%d",y);
     for (z = 0; z <= i; z++) //set loop
     {
-        printf("    %d", x); //print the result
+        printf("\t%d", x); //print the result
         x = x+y;
         y = x - y;
     }
