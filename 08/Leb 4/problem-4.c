@@ -9,7 +9,7 @@ int main(){
 	printf("The factor of %d is ",n);
 	
 	while (n%2 == 0){ //set loop (while)
-    	printf("%d*", 2);
+    	printf("%d*", n);
         n = n/2;
     }
 
