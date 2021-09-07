@@ -8,7 +8,7 @@ int main()
     double sum = 0, mean, inb = 0, SD;
     double x[MAX] = {1,2,3,4,5,6,7,8,9,10};
 
-    for (counter = 0; counter < MAX; counter++)
+    for (counter = 0; counter < MAX; counter++) 
     {
             sum += x[ counter ]; //find sum
     }
