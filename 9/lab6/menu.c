@@ -60,26 +60,26 @@ void ex3()
     int j;
     double fahrenheit;
     double celsius;
-    printf("%10s%15s%5s%15s%10s", "Celsius" , "Fahrenheit" , "|" , "Fahrenheit" , "Celsius\n" );
+    printf("%7s%12s%3s%12s%10s", "Celsius" , "Fahrenheit" , "|" , "Fahrenheit" , "Celsius\n" );
     j = 32;
     for (i = 0; i < 300; i++)
     {
-        if (i < 100 )
+        if (i <= 100 )
         {
-            printf("%10d%15.2lf", i, cTf(i));
+            printf("%7d%12.2lf", i, cTf(i));
         }
-        if (j < 212)
+        if (j <= 212)
         {
-            if (i < 100)
+            if (i <= 100)
             {
-                printf("%5s", "|");
-                printf("%15d%10.2lf\n", j, fTc(j));
+                printf("%3s", "|");
+                printf("%12d%9.2lf\n", j, fTc(j));
                 j++;
             }
             else
             {
-                printf("%30s", "|");
-                printf("%15d%10.2lf\n", j, fTc(j));
+                printf("%22s", "|");
+                printf("%12d%9.2lf\n", j, fTc(j));
                 j++;
             }
             
@@ -125,13 +125,13 @@ void ex4()
 void menu(int *a)
 {
     int b;
-    printf("Exercise\n");
+    printf("Exercise\n\n");
     printf("[1]\tBuilt-in Functions\n");
     printf("[2]\tHypotenuse\n");
     printf("[3]\tTemperature Conversion\n");
     printf("[4]\tSimple Sort\n");
     printf("[5]\tExit");
-    printf("\nEnter the number to select the exercise : ");
+    printf("\n\nEnter the number to select the exercise : ");
     scanf("%d", &b);
     system("cls");
     if (b>0 && b<6)
@@ -139,16 +139,24 @@ void menu(int *a)
         switch (b)
         {
         case 1:
+        printf("[1]\tBuilt-in Functions\n\n\n");
         ex1();
+        puts("");
             break;
         case 2:
+        printf("[2]\tHypotenuse\n\n\n");
         ex2();
+        puts("");
             break;
         case 3:
+        printf("[3]\tTemperature Conversion\n\n\n");
         ex3();
+        puts("");
             break;
         case 4:
+        printf("[4]\tSimple Sort\n\n\n");
         ex4();
+        puts("");
             break;
         case 5:
         *a = 0;
@@ -159,7 +167,7 @@ void menu(int *a)
     }
     else
     {
-        printf("Error. Try put another number.\n\n");
+        printf("Error. Try put another number.\n\n\n");
     }
     
 }
