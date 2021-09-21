@@ -3,7 +3,10 @@
         "stdio.h": "c",
         "math.h": "c",
         "iostream": "c",
-        "vector": "c"
+        "vector": "c",
+        "iterator": "c",
+        "xutility": "c",
+        "cmath": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

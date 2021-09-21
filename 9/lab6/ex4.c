@@ -4,7 +4,7 @@
 void simpleSort(double num1, double num2, double num3, double num4)
 {
     double simsort[SSMax] = { num1 , num2 , num3 , num4 };
-    int i, j, temp;
+    int i, j, temp = 0;
     for (i = 0; i < SSMax; ++i)
     {
         for (j = i + 1; j < SSMax; ++j)
