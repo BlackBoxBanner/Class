@@ -1,4 +1,4 @@
-#fianl
+#press the butto
 
 import time
 import board
