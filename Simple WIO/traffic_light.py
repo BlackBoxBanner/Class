@@ -1,4 +1,4 @@
-#press the butto
+#press the button to change the color of each light
 
 import time
 import board
