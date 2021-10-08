@@ -26,7 +26,8 @@ double disE0(double x, double y, double z, double dis)
     printf("root1 = root2 = %.2lf;", root1);
 }
 
-void quatratic() {
+void quatratic()
+{
 
     double a, b, c, discriminant, root1, root2, realPart, imagPart;
     printf("Enter coefficients a, b and c: ");
@@ -35,20 +36,23 @@ void quatratic() {
     discriminant = b * b - 4 * a * c;
 
     // condition for real and different roots
-    if (discriminant > 0) {
+    if (discriminant > 0)
+    {
         disM0(a, b, c, discriminant);
     }
 
     // condition for real and equal roots
-    else if (discriminant == 0) {
+    else if (discriminant == 0)
+    {
         disE0(a, b, c, discriminant);
     }
 
     // if roots are not real
-    else {
+    else
+    {
         disL0(a, b, c, discriminant);
     }
-} 
+}
 
 double factorial_cal(double num)
 {
@@ -56,7 +60,8 @@ double factorial_cal(double num)
     {
         return 1;
     }
-    else return num * factorial_cal( num - 1 );
+    else
+        return num * factorial_cal(num - 1);
 }
 
 void factorial()
@@ -80,14 +85,13 @@ int fibonacci_cal_pos(int fib)
         b = c;
     }
     return 0;
-    
 }
 
 void fibonacci_pos()
 {
     int fib;
     printf("Enter the number to fibonacci : ");
-    scanf("%d",&fib);
+    scanf("%d", &fib);
     fibonacci_cal_pos(fib);
 }
 
@@ -104,14 +108,13 @@ int fibonacci_cal_neg(int fib)
         b = c;
     }
     return 0;
-    
 }
 
 void fibonacci_neg()
 {
     int fib;
     printf("Enter the number to fibonacci : ");
-    scanf("%d",&fib);
+    scanf("%d", &fib);
     fibonacci_cal_neg(fib);
 }
 
@@ -144,28 +147,28 @@ void fibonacci_menu()
     printf("\n\nEnter the number to select the positive or negative Fibonacci : ");
     scanf("%d", &b);
     system("cls");
-    if (b>=0 && b<3)
+    if (b >= 0 && b < 3)
     {
         switch (b)
         {
         case 1:
-        MenuList();
-        fibonacci_menu_list();
-        printf("\n[1]\tPositive Fibonacci\n\n\n");
-        fibonacci_pos();
-        break;
-        
+            MenuList();
+            fibonacci_menu_list();
+            printf("\n[1]\tPositive Fibonacci\n\n\n");
+            fibonacci_pos();
+            break;
+
         case 2:
-        fibonacci_menu_list();
-        printf("\n[2]\tNegative Fibonacci\n\n\n");
-        fibonacci_neg();
-        break;
+            fibonacci_menu_list();
+            printf("\n[2]\tNegative Fibonacci\n\n\n");
+            fibonacci_neg();
+            break;
 
         case 0:
-        main();
-        break;
+            main();
+            break;
         default:
-        break;
+            break;
         }
     }
     else
@@ -181,32 +184,32 @@ void menu(int *a)
     printf("\n\nEnter the number to select the Calculator : ");
     scanf("%d", &b);
     system("cls");
-    if (b>=0 && b<4)
+    if (b >= 0 && b < 4)
     {
         switch (b)
         {
         case 1:
-        MenuList();
-        printf("\n[1]\tQuadratic Fomula\n\n\n");
-        quatratic();
-        puts("");
-        break;
-        
+            MenuList();
+            printf("\n[1]\tQuadratic Fomula\n\n\n");
+            quatratic();
+            puts("");
+            break;
+
         case 2:
-        MenuList();
-        printf("\n[2]\tFactoiral\n\n\n");
-        factorial();
-        break;
+            MenuList();
+            printf("\n[2]\tFactoiral\n\n\n");
+            factorial();
+            break;
 
         case 3:
-        fibonacci_menu();
-        break;
+            fibonacci_menu();
+            break;
 
         case 0:
-        *a = 0;
-        break;
+            *a = 0;
+            break;
         default:
-        break;
+            break;
         }
     }
     else
@@ -214,7 +217,6 @@ void menu(int *a)
         MenuList();
         printf("\nError. Try put another number.");
     }
-    
 }
 
 int main()
@@ -223,8 +225,8 @@ int main()
     system("cls");
     do
     {
-        if(b == 1)
-        {   
+        if (b == 1)
+        {
             MenuList();
             b = 2;
         }
