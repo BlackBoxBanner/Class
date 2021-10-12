@@ -7,7 +7,17 @@
         "iterator": "c",
         "xutility": "c",
         "cmath": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "exception": "c",
+        "ios": "c",
+        "istream": "c",
+        "memory": "c",
+        "ostream": "c",
+        "streambuf": "c",
+        "tuple": "c",
+        "utility": "c",
+        "xiosbase": "c",
+        "xstring": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "python.testing.unittestArgs": [
