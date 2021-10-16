@@ -15,7 +15,7 @@ int main(void)
     bubbleSort(a, SIZE);
 
     puts("In Data items in ascending order");
-    // 1oop through array a
+    // loop through array a
     for (i = 0; i < SIZE; ++i)
     {
         printf("%4d", a[i]);
