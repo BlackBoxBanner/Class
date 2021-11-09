@@ -20,7 +20,8 @@
         "xstring": "c",
         "string.h": "c",
         "corecrt.h": "c",
-        "vcruntime.h": "c"
+        "vcruntime.h": "c",
+        "xlocale": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "python.testing.unittestArgs": [

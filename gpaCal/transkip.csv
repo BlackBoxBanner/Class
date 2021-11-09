@@ -1,0 +1,88 @@
+2018,1,TH101,Thai,1,3
+2018,1,MA101,Mathematics,1,3.5
+2018,1,SO101,Social Studies,1,4
+2018,1,HI103,History,0.5,4
+2018,1,HE102,Health,0.5,4
+2018,1,AR101,Art,0.5,3
+2018,1,EN101,English,1,3
+2018,1,MA291,Mathematics,0.5,4
+2018,1,MA201,Mathematics,2,2.5
+2018,1,PY201,Physics,2,2
+2018,1,CH221,Chemical,1.5,4
+2018,1,BI241,Biology,1.5,4
+2018,1,SO231,Social Studies,0.5,4
+2018,1,CO251,Computer,1,3.5
+2018,1,EN201,English,1.5,3.5
+2018,2,TH102,Thai,1,2
+2018,2,MA102,Mathematics,1,3
+2018,2,SO102,Social Studies,1,4
+2018,2,HI104,History,0.5,4
+2018,2,HE101,Health,0.5,4
+2018,2,MU102,Dramatic arts,0.5,3.5
+2018,2,EN102,English,1,3
+2018,2,MA292,Mathematics,0.5,4
+2018,2,MA202,Mathematics,2,3.5
+2018,2,PY202,Physics,2,4
+2018,2,CH222,Chemical,1.5,1.5
+2018,2,BI242,Biology,1.5,3
+2018,2,EM283,Environment,1,4
+2018,2,SO232,Social Studies,0.5,4
+2018,2,EN202,English,1.5,4
+2019,1,TH101,Thai,1,2
+2019,1,MA101,Mathematics,1,4
+2019,1,SO101,Social Studies,1,3.5
+2019,1,HI103,History,0.5,4
+2019,1,HE101,Health,0.5,4
+2019,1,AR101,Art,0.5,3.5
+2019,1,WO101,Work,1,4
+2019,1,EN101,English,1,3.5
+2019,1,MA201,Mathematics,2,2.5
+2019,1,PY203,Physics,2,3
+2019,1,CH223,Chemical,1.5,1.5
+2019,1,BI243,Biology,1.5,3.5
+2019,1,CO252,Computer,1,4
+2019,1,EN201,English,0.5,4
+2019,1,IS201,IS,1,4
+2019,2,TH102,Thai,1,3.5
+2019,2,MA105,Mathematics,1,3
+2019,2,SO102,Social Studies,1,3.5
+2019,2,HI104,History,0.5,3
+2019,2,HE102,Health,0.5,4
+2019,2,MU102,Dramatic arts,0.5,4
+2019,2,EN102,English,1,3.5
+2019,2,MA202,Mathematics,2,3.5
+2019,2,PY204,Physics,2,2.5
+2019,2,CH224,Chemical,1.5,2.5
+2019,2,BI244,Biology,1.5,2.5
+2019,2,SM291,Project,1,4
+2019,2,RB253,Robot,1,4
+2019,2,EN202,English,0.5,4
+2019,2,IS202,IS,1,4
+2020,1,TH101,Thai,1,3
+2020,1,MA101,Mathematics,1,3.5
+2020,1,SO101,Social Studies,1,3
+2020,1,HE102,Health,0.5,4
+2020,1,MU102,Dramatic arts,0.5,4
+2020,1,WO103,Work,1,4
+2020,1,EN101,English,1,4
+2020,1,MA201,Mathematics,2,2.5
+2020,1,PY205,Physics,2,4
+2020,1,CH225,Chemical,1.5,1
+2020,1,BI245,Biology,1.5,2
+2020,1,SM287,Project,1,4
+2020,1,SO221,Social Studies,0.5,4
+2020,1,EN211,English,1,4
+2020,2,TH102,Thai,1,2.5
+2020,2,MA102,Mathematics,1,2.5
+2020,2,PY101,Physics,1.5,2.5
+2020,2,CH102,Chemical,1.5,1.5
+2020,2,BI103,Biology,1.5,2.5
+2020,2,AT104,Astronomy,1.5,1.5
+2020,2,SO102,Social Studies,1,3
+2020,2,HE101,Health,0.5,4
+2020,2,AR101,Art,0.5,3
+2020,2,WO104,Work,1,4
+2020,2,EN102,English,1,4
+2020,2,MA202,Mathematics,2,2
+2020,2,SO222,Social Studies,0.5,4
+2020,2,EN212,English,1,4
