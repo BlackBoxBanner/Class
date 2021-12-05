@@ -165,7 +165,6 @@ void fibonacci_menu()
             break;
 
         case 0:
-            main();
             break;
         default:
             break;
