@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+
 char *strlwr(char *str)
 {
     unsigned char *p = (unsigned char *)str;
@@ -11,6 +13,7 @@ char *strlwr(char *str)
     }
     return str;
 }
+
 int isFunction(char *token)
 {
     char *test = strlwr(token);
@@ -29,7 +32,8 @@ int main()
     char token[255];
     strcpy(token, s);
     if (isFunction(token) != -1)
-        printf("%s -> %d", s, isFunction(token));
+        printf("%s -> %d", token, isFunction(token));
     else
         printf("Not found");
+    return 0;
 }
